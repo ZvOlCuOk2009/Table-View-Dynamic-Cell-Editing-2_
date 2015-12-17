@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD0A72ED1C235EBE0095AEB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0A72EC1C235EBE0095AEB0 /* main.m */; };
+		FD0A72F01C235EBE0095AEB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0A72EF1C235EBE0095AEB0 /* AppDelegate.m */; };
+		FD0A72F31C235EBE0095AEB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0A72F21C235EBE0095AEB0 /* ViewController.m */; };
+		FD0A72F61C235EBE0095AEB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0A72F41C235EBE0095AEB0 /* Main.storyboard */; };
+		FD0A72F81C235EBE0095AEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0A72F71C235EBE0095AEB0 /* Assets.xcassets */; };
+		FD0A72FB1C235EBE0095AEB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0A72F91C235EBE0095AEB0 /* LaunchScreen.storyboard */; };
+		FD0A73061C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0A73051C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_Tests.m */; };
+		FD0A73111C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0A73101C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD0A73021C235EBE0095AEB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD0A72E01C235EBD0095AEB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD0A72E71C235EBE0095AEB0;
+			remoteInfo = "Table View Dynamic Cell Editing 2_";
+		};
+		FD0A730D1C235EBE0095AEB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD0A72E01C235EBD0095AEB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD0A72E71C235EBE0095AEB0;
+			remoteInfo = "Table View Dynamic Cell Editing 2_";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD0A72E81C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table View Dynamic Cell Editing 2_.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0A72EC1C235EBE0095AEB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD0A72EE1C235EBE0095AEB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD0A72EF1C235EBE0095AEB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD0A72F11C235EBE0095AEB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD0A72F21C235EBE0095AEB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD0A72F51C235EBE0095AEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD0A72F71C235EBE0095AEB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD0A72FA1C235EBE0095AEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD0A72FC1C235EBE0095AEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0A73011C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table View Dynamic Cell Editing 2_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0A73051C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table_View_Dynamic_Cell_Editing_2_Tests.m; sourceTree = "<group>"; };
+		FD0A73071C235EBE0095AEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0A730C1C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table View Dynamic Cell Editing 2_UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0A73101C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table_View_Dynamic_Cell_Editing_2_UITests.m; sourceTree = "<group>"; };
+		FD0A73121C235EBE0095AEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD0A72E51C235EBE0095AEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0A72FE1C235EBE0095AEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0A73091C235EBE0095AEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD0A72DF1C235EBD0095AEB0 = {
+			isa = PBXGroup;
+			children = (
+				FD0A72EA1C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_ */,
+				FD0A73041C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_Tests */,
+				FD0A730F1C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_UITests */,
+				FD0A72E91C235EBE0095AEB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD0A72E91C235EBE0095AEB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD0A72E81C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_.app */,
+				FD0A73011C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_Tests.xctest */,
+				FD0A730C1C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD0A72EA1C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_ */ = {
+			isa = PBXGroup;
+			children = (
+				FD0A72EE1C235EBE0095AEB0 /* AppDelegate.h */,
+				FD0A72EF1C235EBE0095AEB0 /* AppDelegate.m */,
+				FD0A72F11C235EBE0095AEB0 /* ViewController.h */,
+				FD0A72F21C235EBE0095AEB0 /* ViewController.m */,
+				FD0A72F41C235EBE0095AEB0 /* Main.storyboard */,
+				FD0A72F71C235EBE0095AEB0 /* Assets.xcassets */,
+				FD0A72F91C235EBE0095AEB0 /* LaunchScreen.storyboard */,
+				FD0A72FC1C235EBE0095AEB0 /* Info.plist */,
+				FD0A72EB1C235EBE0095AEB0 /* Supporting Files */,
+			);
+			path = "Table View Dynamic Cell Editing 2_";
+			sourceTree = "<group>";
+		};
+		FD0A72EB1C235EBE0095AEB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD0A72EC1C235EBE0095AEB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD0A73041C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FD0A73051C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_Tests.m */,
+				FD0A73071C235EBE0095AEB0 /* Info.plist */,
+			);
+			path = "Table View Dynamic Cell Editing 2_Tests";
+			sourceTree = "<group>";
+		};
+		FD0A730F1C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD0A73101C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_UITests.m */,
+				FD0A73121C235EBE0095AEB0 /* Info.plist */,
+			);
+			path = "Table View Dynamic Cell Editing 2_UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD0A72E71C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0A73151C235EBE0095AEB0 /* Build configuration list for PBXNativeTarget "Table View Dynamic Cell Editing 2_" */;
+			buildPhases = (
+				FD0A72E41C235EBE0095AEB0 /* Sources */,
+				FD0A72E51C235EBE0095AEB0 /* Frameworks */,
+				FD0A72E61C235EBE0095AEB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Table View Dynamic Cell Editing 2_";
+			productName = "Table View Dynamic Cell Editing 2_";
+			productReference = FD0A72E81C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD0A73001C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0A73181C235EBE0095AEB0 /* Build configuration list for PBXNativeTarget "Table View Dynamic Cell Editing 2_Tests" */;
+			buildPhases = (
+				FD0A72FD1C235EBE0095AEB0 /* Sources */,
+				FD0A72FE1C235EBE0095AEB0 /* Frameworks */,
+				FD0A72FF1C235EBE0095AEB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD0A73031C235EBE0095AEB0 /* PBXTargetDependency */,
+			);
+			name = "Table View Dynamic Cell Editing 2_Tests";
+			productName = "Table View Dynamic Cell Editing 2_Tests";
+			productReference = FD0A73011C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD0A730B1C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0A731B1C235EBE0095AEB0 /* Build configuration list for PBXNativeTarget "Table View Dynamic Cell Editing 2_UITests" */;
+			buildPhases = (
+				FD0A73081C235EBE0095AEB0 /* Sources */,
+				FD0A73091C235EBE0095AEB0 /* Frameworks */,
+				FD0A730A1C235EBE0095AEB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD0A730E1C235EBE0095AEB0 /* PBXTargetDependency */,
+			);
+			name = "Table View Dynamic Cell Editing 2_UITests";
+			productName = "Table View Dynamic Cell Editing 2_UITests";
+			productReference = FD0A730C1C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD0A72E01C235EBD0095AEB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Tsvigun Alexandr";
+				TargetAttributes = {
+					FD0A72E71C235EBE0095AEB0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5D7GRV784H;
+					};
+					FD0A73001C235EBE0095AEB0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5D7GRV784H;
+						TestTargetID = FD0A72E71C235EBE0095AEB0;
+					};
+					FD0A730B1C235EBE0095AEB0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5D7GRV784H;
+						TestTargetID = FD0A72E71C235EBE0095AEB0;
+					};
+				};
+			};
+			buildConfigurationList = FD0A72E31C235EBD0095AEB0 /* Build configuration list for PBXProject "Table View Dynamic Cell Editing 2_" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD0A72DF1C235EBD0095AEB0;
+			productRefGroup = FD0A72E91C235EBE0095AEB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD0A72E71C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_ */,
+				FD0A73001C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_Tests */,
+				FD0A730B1C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD0A72E61C235EBE0095AEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0A72FB1C235EBE0095AEB0 /* LaunchScreen.storyboard in Resources */,
+				FD0A72F81C235EBE0095AEB0 /* Assets.xcassets in Resources */,
+				FD0A72F61C235EBE0095AEB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0A72FF1C235EBE0095AEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0A730A1C235EBE0095AEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD0A72E41C235EBE0095AEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0A72F31C235EBE0095AEB0 /* ViewController.m in Sources */,
+				FD0A72F01C235EBE0095AEB0 /* AppDelegate.m in Sources */,
+				FD0A72ED1C235EBE0095AEB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0A72FD1C235EBE0095AEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0A73061C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0A73081C235EBE0095AEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0A73111C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD0A73031C235EBE0095AEB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD0A72E71C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_ */;
+			targetProxy = FD0A73021C235EBE0095AEB0 /* PBXContainerItemProxy */;
+		};
+		FD0A730E1C235EBE0095AEB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD0A72E71C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_ */;
+			targetProxy = FD0A730D1C235EBE0095AEB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD0A72F41C235EBE0095AEB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0A72F51C235EBE0095AEB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD0A72F91C235EBE0095AEB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0A72FA1C235EBE0095AEB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD0A73131C235EBE0095AEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD0A73141C235EBE0095AEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD0A73161C235EBE0095AEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Table View Dynamic Cell Editing 2_/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Table-View-Dynamic-Cell-Editing-2-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD0A73171C235EBE0095AEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Table View Dynamic Cell Editing 2_/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Table-View-Dynamic-Cell-Editing-2-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD0A73191C235EBE0095AEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Table View Dynamic Cell Editing 2_Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Table-View-Dynamic-Cell-Editing-2-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Table View Dynamic Cell Editing 2_.app/Table View Dynamic Cell Editing 2_";
+			};
+			name = Debug;
+		};
+		FD0A731A1C235EBE0095AEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Table View Dynamic Cell Editing 2_Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Table-View-Dynamic-Cell-Editing-2-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Table View Dynamic Cell Editing 2_.app/Table View Dynamic Cell Editing 2_";
+			};
+			name = Release;
+		};
+		FD0A731C1C235EBE0095AEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Table View Dynamic Cell Editing 2_UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Table-View-Dynamic-Cell-Editing-2-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Table View Dynamic Cell Editing 2_";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FD0A731D1C235EBE0095AEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Table View Dynamic Cell Editing 2_UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Table-View-Dynamic-Cell-Editing-2-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Table View Dynamic Cell Editing 2_";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD0A72E31C235EBD0095AEB0 /* Build configuration list for PBXProject "Table View Dynamic Cell Editing 2_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0A73131C235EBE0095AEB0 /* Debug */,
+				FD0A73141C235EBE0095AEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD0A73151C235EBE0095AEB0 /* Build configuration list for PBXNativeTarget "Table View Dynamic Cell Editing 2_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0A73161C235EBE0095AEB0 /* Debug */,
+				FD0A73171C235EBE0095AEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD0A73181C235EBE0095AEB0 /* Build configuration list for PBXNativeTarget "Table View Dynamic Cell Editing 2_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0A73191C235EBE0095AEB0 /* Debug */,
+				FD0A731A1C235EBE0095AEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD0A731B1C235EBE0095AEB0 /* Build configuration list for PBXNativeTarget "Table View Dynamic Cell Editing 2_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0A731C1C235EBE0095AEB0 /* Debug */,
+				FD0A731D1C235EBE0095AEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD0A72E01C235EBD0095AEB0 /* Project object */;
+}
