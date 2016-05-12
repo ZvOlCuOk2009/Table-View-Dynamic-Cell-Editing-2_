@@ -15,6 +15,8 @@
 		FD0A72FB1C235EBE0095AEB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0A72F91C235EBE0095AEB0 /* LaunchScreen.storyboard */; };
 		FD0A73061C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0A73051C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_Tests.m */; };
 		FD0A73111C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0A73101C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_UITests.m */; };
+		FD0A73201C23692A0095AEB0 /* TSAuto.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0A731F1C23692A0095AEB0 /* TSAuto.m */; };
+		FD0A73231C23699D0095AEB0 /* TSParking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0A73221C23699D0095AEB0 /* TSParking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		FD0A730C1C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table View Dynamic Cell Editing 2_UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0A73101C235EBE0095AEB0 /* Table_View_Dynamic_Cell_Editing_2_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table_View_Dynamic_Cell_Editing_2_UITests.m; sourceTree = "<group>"; };
 		FD0A73121C235EBE0095AEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0A731E1C2369290095AEB0 /* TSAuto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAuto.h; sourceTree = "<group>"; };
+		FD0A731F1C23692A0095AEB0 /* TSAuto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAuto.m; sourceTree = "<group>"; };
+		FD0A73211C23699D0095AEB0 /* TSParking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSParking.h; sourceTree = "<group>"; };
+		FD0A73221C23699D0095AEB0 /* TSParking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSParking.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 				FD0A73041C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_Tests */,
 				FD0A730F1C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_UITests */,
 				FD0A72E91C235EBE0095AEB0 /* Products */,
+				FD0A72EB1C235EBE0095AEB0 /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +108,10 @@
 		FD0A72EA1C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_ */ = {
 			isa = PBXGroup;
 			children = (
+				FD0A731E1C2369290095AEB0 /* TSAuto.h */,
+				FD0A731F1C23692A0095AEB0 /* TSAuto.m */,
+				FD0A73211C23699D0095AEB0 /* TSParking.h */,
+				FD0A73221C23699D0095AEB0 /* TSParking.m */,
 				FD0A72EE1C235EBE0095AEB0 /* AppDelegate.h */,
 				FD0A72EF1C235EBE0095AEB0 /* AppDelegate.m */,
 				FD0A72F11C235EBE0095AEB0 /* ViewController.h */,
@@ -109,7 +120,6 @@
 				FD0A72F71C235EBE0095AEB0 /* Assets.xcassets */,
 				FD0A72F91C235EBE0095AEB0 /* LaunchScreen.storyboard */,
 				FD0A72FC1C235EBE0095AEB0 /* Info.plist */,
-				FD0A72EB1C235EBE0095AEB0 /* Supporting Files */,
 			);
 			path = "Table View Dynamic Cell Editing 2_";
 			sourceTree = "<group>";
@@ -120,6 +130,7 @@
 				FD0A72EC1C235EBE0095AEB0 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = "Table View Dynamic Cell Editing 2_";
 			sourceTree = "<group>";
 		};
 		FD0A73041C235EBE0095AEB0 /* Table View Dynamic Cell Editing 2_Tests */ = {
@@ -202,6 +213,7 @@
 		FD0A72E01C235EBD0095AEB0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TS;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Tsvigun Alexandr";
 				TargetAttributes = {
@@ -273,9 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0A73231C23699D0095AEB0 /* TSParking.m in Sources */,
 				FD0A72F31C235EBE0095AEB0 /* ViewController.m in Sources */,
 				FD0A72F01C235EBE0095AEB0 /* AppDelegate.m in Sources */,
 				FD0A72ED1C235EBE0095AEB0 /* main.m in Sources */,
+				FD0A73201C23692A0095AEB0 /* TSAuto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +515,7 @@
 				FD0A73171C235EBE0095AEB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD0A73181C235EBE0095AEB0 /* Build configuration list for PBXNativeTarget "Table View Dynamic Cell Editing 2_Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +524,7 @@
 				FD0A731A1C235EBE0095AEB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD0A731B1C235EBE0095AEB0 /* Build configuration list for PBXNativeTarget "Table View Dynamic Cell Editing 2_UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +533,7 @@
 				FD0A731D1C235EBE0095AEB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

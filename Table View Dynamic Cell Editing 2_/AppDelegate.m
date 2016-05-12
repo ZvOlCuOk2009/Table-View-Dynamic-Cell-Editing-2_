@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    ViewController *controller = [[ViewController alloc] init];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
+    
+    [[UINavigationBar appearance] setBarStyle:UIBarStyleBlack]; //установить цвет сестемной индикации
+    
+    navController.navigationBar.barTintColor = [UIColor blackColor]; //установить цвет бару
+    
+    self.window.rootViewController = navController;
+    
+    
+    
+    
     return YES;
 }
 
